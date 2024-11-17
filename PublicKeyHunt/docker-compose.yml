@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  python-bitcoinlib:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ["python3"]
